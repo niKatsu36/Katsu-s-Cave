@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #81C784;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    display:block
+}
+header {
+    display: block;
+    background: #81C784;
+    margin-bottom: 20%;
+}
+.header {
+    position: fixed;
+}
+.local-menu {
+    position: relative;
+}
+a.local img {
+    float:left;
+    margin: 15%;
+    width: 30px;
+    height: auto;
+}
+.local-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.local-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.local-content a:hover {
+    background-color: #ddd;
+}
+.local-menu:hover .local-content {
+    display: block;
+}
+a.theme img {
+    float:right;
+    margin:5px;
+    width: 30px;
+    height: auto;
+}
+.katsu {
+    background: #81C784;
+    padding-top: 15%;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.katsu p {
+    color: white;
+}
+.btn {
+    padding: 0.5em 2em; /* Расстояние от текста до края */
+    font-size: 0.9em; /* Размер шрифта */
+    background-color: transparent; /* Прозрачный фон */
+    color: white; /* Цвет текста */
+    border: 1px solid white; /* Параметры рамки */
+    border-radius: 3em; /* Радиус скругления */
+    transition: 0.3s; /* Время перехода */
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.btn:hover {
+    background-color: white; /* Цвет фона */
+    color: #81C784; /* Белый цвет текста */
+}
+main {
+    background: white;
+}
+.banner__content {
+    background: #3f51b5;
+}
+@keyframes move {
+    from {
+      transform: translate(-90px, 0%);
+    }
+  
+    to {
+      transform: translate(90px, 0%);
+    }
+}
+.banner svg {
+    width: 100%;
+    background: #81C784;
+
+    width: 100%;
+    height: 15vw;
+}
+.banner svg>g>use {
+    animation: move 30s linear infinite;
+}
+.banner svg>g>use:nth-child(1) {
+    animation-delay: -2s;
+    fill: #C8E6C9;
+}
+.banner svg>g>use:nth-child(2) {
+    animation-delay: -2s;
+    animation-duration: 17s;
+    fill: #A5D6A7;
+}
+.banner svg>g>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 10s;
+    fill: #ffffff;
+}
+.me img{
+    margin: 10%;
+    margin-left: 20%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+.me h3 {
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.html {
+    margin-left: 10%;
+}
+.html figure {
+    background-color: #81C784;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+}
+.html figcaption {
+    margin-left: 45%;
+}
+.css {
+    margin-left: 10%;
+}
+.css figure {
+    background-color: #81C784;
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+}
+.css figcaption {
+    margin-left: 45%;
+}
+.js {
+    margin-left: 10%;
+}
+.js figure {
+    background-color: #81C784;
+    width: 2%;
+    height: 30px;
+    border-radius: 20px;
+}
+.js figcaption {
+    margin-left: 45%;
+}
+a .loki {
+    width: 15%;
+    border-radius: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    transition: 0.5s;
+}
+.loki p {
+    font-size: 30px;
+}
+a .loki:hover {
+    width: 17%;
+    transition: 0.5s;
+}
+a .lexy {
+    width: 15%;
+    border-radius: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    transition: 0.5s;
+}
+.lexy p {
+    font-size: 30px;
+}
+a .lexy:hover {
+    width: 17%;
+    transition: 0.5s;
+}
+a .flerni {
+    width: 15%;
+    border-radius: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    transition: 0.5s;
+}
+.flerni p {
+    font-size: 30px;
+}
+a .flerni:hover {
+    width: 17%;
+    transition: 0.5s;
+}
+a .AG {
+    width: 29%;
+    border-radius: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: none;
+    transition: 0.5s;
+    filter: blur(5px);
+}
+.AG p {
+    font-size: 30px;
+}
+a .AG:hover {
+    width: 34%;
+    transition: 0.5s;
+    
+}
+footer {
+    display: block;
+    background: #0f120f;
+    margin: 0;
+    padding: 0;
+}
+img.tel {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.tel:hover {
+    content: url(pic/telegram2.png);
+}
+img.git {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.inst {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.inst:hover {
+    content: url(pic/instagram2.png);
+}
+img.dis {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.dis:hover {
+    content: url(pic/discord2.png);
+}
+img.face {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.face:hover {
+    content: url(pic/facebook2.png);
+}
+img.linked {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.linked:hover {
+    content: url(pic/linkedin2.png);
+}
+img.solo {
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.academy {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.academy:hover {
+    content: url(pic/htmlacademy2.png);
+}
+img.spot {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.spot:hover {
+    content: url(pic/spotify2.png);
+}
+img.twitch {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.twitch:hover {
+    content: url(pic/twitch2.png);
+}
+img.sound {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.sound:hover {
+    content: url(pic/soundcloud2.png);
+}
+img.yt {    
+    padding: 2%;
+    width: 30px;
+    height: auto;
+}
+img.yt:hover {
+    content: url(pic/youtube2.png);
+}
