@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
 html {
     scroll-behavior: smooth;
 }
 body {
     background: #81C784;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin: 0;
     display:block
@@ -130,6 +132,42 @@ main {
     float: right;
     margin-top: 10%;
     margin-right: 10%;
+}
+.html {
+    margin-left: 10%;
+}
+.html figure {
+    background-color: #81C784;
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+}
+.html figcaption {
+    margin-left: 45%;
+}
+.css {
+    margin-left: 10%;
+}
+.css figure {
+    background-color: #81C784;
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+}
+.css figcaption {
+    margin-left: 45%;
+}
+.js {
+    margin-left: 10%;
+}
+.js figure {
+    background-color: #81C784;
+    width: 2%;
+    height: 30px;
+    border-radius: 20px;
+}
+.js figcaption {
+    margin-left: 45%;
 }
 a .loki {
     width: 15%;
